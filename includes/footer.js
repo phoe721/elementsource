@@ -1,0 +1,16 @@
+var address = "";
+var phone = "";
+var time = new Date();
+var year = time.getFullYear();
+document.write('<br><br>');
+document.write('<div id=footer>');
+document.write('<a href="index.htm">Home</a> | '); 
+document.write('<a href="products.htm">Products</a> | ');
+document.write('<a href="support.htm">Support</a> | '); 
+document.write('<a href="wheretobuy.htm">Where To Buy</a> | '); 
+document.write('<a href="contact.htm">Contact</a> | ');
+document.write('<a href="aboutus.htm">About Us</a>');
+document.write('<br>');
+document.write(address + '. Phone: ' + phone + '<br>');
+document.write('&copy ' + year + ' Element Source Inc.');
+document.write('</div>');

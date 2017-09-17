@@ -1,0 +1,68 @@
+html{height: 100%;}
+
+body
+{ background-color: #FFFFFF; /* #A79298; */
+  color: #5F4F53;
+}
+
+blockquote
+{ background-color: #F7EFF1;
+  color: #5F4F53;
+  border-color: #CFBBC0;
+}
+
+#main
+{ background: #FFFFFF; /* url(../images/back_8.jpg) repeat-y */
+  color: #5F4F53;
+}
+
+#links, #footer
+{ background: #FFFFFF; /* #A79298 url(../images/btn_8_invert.jpg) */
+  color: #5F4F53;
+  border-color: #5F4F53;
+}
+
+#links a, #footer a
+{ background-color: transparent;
+  color: #5F4F53;
+}
+
+#logo
+{ background: #FFFFFF url(../images/logo_8.jpg) no-repeat;
+  color: #5F4F53;
+}
+
+#links a:hover, #footer a:hover
+{ background-color: transparent;
+  /* color: #FFFFFF; */
+  text-decoration: underline;
+}  
+
+#logo h1
+{ color: #FFFFFF;
+}
+
+#menu li a
+{ background: #A79298 url(../images/btn_8.jpg);
+  color: #5F4F53;
+  border-color: #5F4F53;
+}
+
+#menu li a:hover, #menu li a#selected
+{ background: #A79298 url(../images/btn_8_invert.jpg);
+  color: #FFFFFF;
+  border-color: #5F4F53;
+} 
+
+#content, #column1, #column2, 
+.sidebaritem, .sidebaritem a, #column2 a,
+.sidebaritem a:hover, #column2 a:hover
+{ background: #FFFFFF;
+  color: #5F4F53;
+}
+
+input, textarea
+{ background-color: #FFFFFF;
+  color: #5F4F53;
+  border-color: #B9A7AC;
+}

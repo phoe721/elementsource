@@ -1,0 +1,32 @@
+#dropmenudiv{
+   border-left:1px solid black; 
+   border-right:1px solid black; 
+   border-top:1px solid black; 
+   border-bottom:0px solid black; 
+   
+   position:absolute;
+   line-height:20px;
+   z-index:100; 
+   
+   font-style:normal; 
+   font-variant:normal; 
+   font-weight:normal;
+   font-size:10pt; 
+}
+
+#dropmenudiv a{
+   width: 100%;
+   display: block;
+   text-indent: 3px;
+   border-bottom: 1px solid black;
+   padding: 1px 0;
+   background: #A79298 url(../images/btn_8.jpg);
+   color: #5F4F53;
+   border-color: #5F4F53;
+   text-transform: lowercase;
+}
+
+#dropmenudiv a:hover{ /*hover background color*/   background: #A79298 url(../images/btn_8_invert.jpg);
+   color: #FFFFFF;
+   border-color: #5F4F53;
+   text-decoration: none;}
